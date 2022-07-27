@@ -283,6 +283,21 @@ section.active{
 .aside .nav li a i{
     margin-right: 15px;
 }
+.aside .author-rights{
+    bottom: 50px;
+    position: absolute;
+}
+.aside .author-rights h3{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color:var(--text-black-900);
+}
+.aside .author-rights h3 p{
+    margin-top:3px;
+    border-top: 2px solid var(--skin-color);
+    color: var(--skin-color);
+}
 /* / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / */
 /* / / / / / / / / / / / H O M E / / / / / / / / / / / / / / / */
 /* / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / */
@@ -913,11 +928,41 @@ h3.my-profession{
         max-width: 50%;
     }
     .home .home-info{
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 50%;
+        max-width: 50%;  
+    }
+    .home .home-info p{
+        font-size: 14px;
+        margin-top: 50px;  
+    }
+    h3.hello{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    h3.hello .name{
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    h3.my-profession{
+        font-size: 14px;
+        margin: 5px 0;
     }
     .home .home-img{
+        /* display: none; */
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home-img::after{
+        content: '';
         display: none;
+    }
+    .home-img::before{
+        content: '';
+        display: none;
+    }
+    
+    .home .home-img img{
+        height: 250px;
     }
 }
 @media (max-width:767px){
@@ -942,5 +987,32 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
         margin-left: 2%;
+    }
+    .home .home-img img{
+        height: 200px;
+    }
+}
+
+@media (max-height:480px){/*1020*480*/
+    .aside .logo{
+        position: absolute;
+        top: 15px;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    .aside .logo a{
+        font-size: 18px;
+    }
+    .aside .logo a span{
+        font-size: 22px;
+    }
+    .aside .nav li a{
+        font-size: 12px;
+    }
+    .aside .author-rights{
+        bottom: 10px !important;
+    }
+    .aside .author-rights h3{
+        font-size: 10px !important;
     }
 }
