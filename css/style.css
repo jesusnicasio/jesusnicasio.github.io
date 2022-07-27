@@ -1016,3 +1016,18 @@ h3.my-profession{
         font-size: 10px !important;
     }
 }
+
+@media(max-height:350px){
+    .aside .nav li{
+        margin-bottom: 5px !important;
+    }
+    .aside .nav li a{
+        font-size: 10px !important;
+    }
+    .aside .author-rights{
+        bottom: 5px !important;
+    }
+    .aside .author-rights h3{
+        font-size: 8px !important;
+    }
+}
