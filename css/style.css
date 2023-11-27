@@ -349,22 +349,22 @@ h3.my-profession{
 .home-img::after{
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: 20px;/* -2%*/
-    bottom: -40px;/* -4%*/
+    height: 60px;
+    width: 60px;
+    border-bottom: 8px solid var(--skin-color);
+    border-right: 8px solid var(--skin-color);
+    right: -5px;/* -2%*/
+    bottom: -20px;/* -4%*/
 }
 .home-img::before{
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    left: -10px;/* -2%*/
-    top: -40px;/* -12%*/
+    height: 60px;
+    width: 60px;
+    border-top: 8px solid var(--skin-color);
+    border-left: 8px solid var(--skin-color);
+    left: 50px;/* -2%*/
+    top: -15px;/* -12%*/
 }
 
 .home .home-img img{
