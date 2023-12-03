@@ -67,12 +67,16 @@ body.scale-cv{
     font-size: 1.2rem;
     color: var(--text-color);
     cursor: pointer;
+
 }
 
 .generate-pdf:hover{
     color: #EB5759;
 }
 
+#resume-button{
+    margin-top: 15%;
+}
 
 /* /-/-/-/-/-/-/-/-/ MODIFIED CLASSES TO REDUCE SIZE AND PRINT ON A4 SHEET /-/-/-/-/-/-/-/-/ */
 .scale-cv .generate-pdf{
@@ -266,6 +270,11 @@ img{
         z-index: var(--z-fixed);
         transition: .3s;
     }
+}
+
+.nav__logo img{
+    height: 1.5rem;
+    width: auto;
 }
 
 .nav__logo,

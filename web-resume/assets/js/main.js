@@ -116,3 +116,15 @@ document.onkeydown = function(e) {
     return false;
     }
 }
+
+
+let goBackButton = document.getElementById('home-button');
+
+// When button is clicked, it relocate to the main page (spanish one)
+goBackButton.addEventListener('click',() =>{
+
+    //../index.html
+    window.location.href = '../index.html';
+
+    
+})
